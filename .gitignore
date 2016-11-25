@@ -1,0 +1,47 @@
+st login: Tue Nov  8 11:16:40 on ttys000
+MarcodeMacBook-Pro:~ mac$ cd /Users/mac/Movies/workspace/BabyDaily\ 2 
+MarcodeMacBook-Pro:BabyDaily 2 mac$ vim .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+Pods/
+
+
+### AppCode ###
+## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+#
+### Directory-based project format
+.idea/
+## if you remove the above rule, at least ignore user-specific stuff:
+# .idea/workspace.xml
+## .idea/tasks.xml
+## and these sensitive or high-churn files:
+## .idea/dataSources.ids
+## .idea/dataSources.xml
+## .idea/sqlDataSources.xml
+## .idea/dynamic.xml
+#
+### File-based project format
+*.ipr
+*.iml
+*.iws
+
