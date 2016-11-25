@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  YouCai
+//
+//  Created by marco on 5/17/16.
+//  Copyright © 2016 marco. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import "XMMegaBaseConstants.h"
+
+//#import <Foundation/Foundation.h>
+//#import <BlocksKit/BlocksKit+UIKit.h>
+//
+//#import "WXApi.h"
+//#import "Macros.h"
+//
+//#import "Categories.h"
+//#import "TTApplicationEntrance.h"
+//#import "TTNavigationService.h"
+//#import "UserService.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */

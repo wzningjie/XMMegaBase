@@ -1,0 +1,15 @@
+source 'http://git.guaniuwu.cn/XMPods/XMSpecs.git'    
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'XMMegaBase_Example' do
+  pod 'XMMegaBase', :path => '../'
+
+  target 'XMMegaBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+target 'XMMegaBaseBinary' do
+end
